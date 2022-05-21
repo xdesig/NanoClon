@@ -1,5 +1,7 @@
 # NanoClon V 0.0001
 
+<img src="https://github.com/xdesig/NanoClon/blob/main/img/mClonNano_3DimgTopNanoBri.png" width="300" align="right">
+
 ## initial version.
 Circuit that has everything you need to assemble your mClon-style robot, 
 avoiding having to look for the missing Arduino one from RobotDyn that 
