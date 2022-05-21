@@ -16,7 +16,7 @@ and use a power bank by simply soldering the Bat-Vcc selector on the underside.
 
 ## Author and license
 * Author: [XDeSIG][TWI01]
-* License:[CERN Open Hardware Licence Version 2 - Weakly Reciprocal]
+* License:[CERN Open Hardware Licence Version 2 - Weakly Reciprocal][CERN-OHL-W]
 
 
 <!-- links -->
