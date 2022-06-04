@@ -1,4 +1,4 @@
-# NanoClon V 0.001   <img src="https://github.com/xdesig/NanoClon/blob/main/img/ES000027.svg" width="100" align="right">
+# NanoClon V 0.001   <img src="https://github.com/xdesig/NanoClon/blob/main/img/ES000027.svg" width="200" align="right">
 
 <img src="https://github.com/xdesig/NanoClon/blob/main/img/mClonNano_3DimgTopNanoBri.png" width="300" align="right">
 
@@ -17,7 +17,7 @@ and use a power bank by simply soldering the Bat-Vcc selector on the underside.
 ## Author and license
 * Author: [XDeSIG][TWI01]
 * License:[CERN Open Hardware Licence Version 2 - Weakly Reciprocal][CERN-OHL-W]
-<img src="https://github.com/xdesig/NanoClon/blob/main/img/oshw_facts.svg" width="100" align="right">
+<img src="https://github.com/xdesig/NanoClon/blob/main/img/oshw_facts.svg" width="200" align="right">
 
 <!-- links -->
 [tecnoloxia.org]: https://tecnoloxia.org/mclon/que-e-mclon/
