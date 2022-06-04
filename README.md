@@ -13,7 +13,7 @@ larger than the usual 0603 and 0402).
 You can an option not solder the smd components of the step-up,
 and use a power bank by simply soldering the Bat-Vcc selector on the underside.
 
-### Deseñado en Estrimia con agarimo
+#### Deseñado en Estrimia con agarimo
 
 ## Author and license
 * Author: [XDeSIG][TWI01]
