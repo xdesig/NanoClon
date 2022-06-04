@@ -8,7 +8,7 @@
 </settings>
 <grid distance="50" unitdist="mil" unit="mm" style="lines" multiple="1" display="no" altdistance="0.0635" altunitdist="mm" altunit="mm"/>
 <layers>
-<layer number="1" name="Top" color="1" fill="1" visible="no" active="yes"/>
+<layer number="1" name="Top" color="1" fill="1" visible="yes" active="yes"/>
 <layer number="16" name="Bottom" color="4" fill="1" visible="yes" active="yes"/>
 <layer number="17" name="Pads" color="2" fill="1" visible="yes" active="yes"/>
 <layer number="18" name="Vias" color="2" fill="1" visible="yes" active="yes"/>
@@ -17,7 +17,7 @@
 <layer number="21" name="tPlace" color="7" fill="1" visible="no" active="yes"/>
 <layer number="22" name="bPlace" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="23" name="tOrigins" color="15" fill="1" visible="no" active="yes"/>
-<layer number="24" name="bOrigins" color="15" fill="1" visible="no" active="yes"/>
+<layer number="24" name="bOrigins" color="15" fill="1" visible="yes" active="yes"/>
 <layer number="25" name="tNames" color="7" fill="1" visible="no" active="yes"/>
 <layer number="26" name="bNames" color="7" fill="1" visible="no" active="yes"/>
 <layer number="27" name="tValues" color="7" fill="1" visible="no" active="yes"/>
@@ -245,7 +245,7 @@
 <text x="15.9385" y="32.639" size="1.6764" layer="21" font="vector" rot="R180">S</text>
 <text x="12.954" y="57.023" size="1.016" layer="16" font="vector" rot="MR0" align="center">XDeSIG</text>
 <text x="34.0995" y="13.589" size="1.016" layer="22" font="vector" rot="MR0" align="center">V0.001
-2222</text>
+1822</text>
 <dimension x1="5.08" y1="0" x2="58.42" y2="5.08" x3="31.75" y3="-29.21" textsize="1.778" layer="47" dtype="horizontal" precision="1"/>
 <dimension x1="5.08" y1="0" x2="47.752" y2="6.35" x3="26.416" y3="-20.32" textsize="1.778" layer="47" dtype="horizontal" precision="1"/>
 <dimension x1="5.08" y1="0" x2="54.737" y2="6.35" x3="29.9085" y3="-25.4" textsize="1.778" layer="47" dtype="horizontal" precision="1"/>
