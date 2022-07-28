@@ -30554,8 +30554,8 @@ NPN general-purpose transistor
 <part name="R5" library="rcl" deviceset="R-EU_" device="0204/7" value="2K2"/>
 <part name="R6" library="rcl" deviceset="R-EU_" device="0204/7" value="4K7"/>
 <part name="U$6" library="SparkFunEagle-6-6-07" deviceset="5V" device=""/>
-<part name="X2" library="con-ptr500" deviceset="AK550/2" device=""/>
-<part name="X3" library="con-ptr500" deviceset="AK550/2" device=""/>
+<part name="X2" library="con-ptr500" deviceset="AK550/2" device="" value="KF350-2"/>
+<part name="X3" library="con-ptr500" deviceset="AK550/2" device="" value="KF350-2"/>
 <part name="C1" library="rcl" deviceset="C-EU" device="050-024X044" value="0.1uF"/>
 <part name="C2" library="rcl" deviceset="C-EU" device="050-024X044" value="0.1uF"/>
 <part name="NP1.1" library="adafruit" deviceset="WS2812B" device="" value="WS2812B"/>
@@ -30614,7 +30614,7 @@ NPN general-purpose transistor
 <part name="LED2" library="adafruit" deviceset="LED" device="CHIPLED_0805" value="CR"/>
 <part name="LED3" library="adafruit" deviceset="LED" device="CHIPLED_0805" value="OK"/>
 <part name="GND1" library="SparkFun" deviceset="GND" device=""/>
-<part name="X1" library="con-ptr500" deviceset="AK550/2" device=""/>
+<part name="X1" library="con-ptr500" deviceset="AK550/2" device="" value="KF350-2"/>
 <part name="SJ1" library="escorna_LBREscorna_CPU_2_10" deviceset="JUMPER_SJ" device="W"/>
 <part name="R3.1" library="rcl" deviceset="R-EU_" device="R1206" value="2K2"/>
 <part name="R5.1" library="rcl" deviceset="R-EU_" device="R1206" value="2K2"/>
@@ -30640,8 +30640,8 @@ NPN general-purpose transistor
 <part name="T2.1" library="nxp_60" deviceset="BC847" device=""/>
 <part name="GND26" library="SparkFun" deviceset="GND" device=""/>
 <part name="U$7" library="xdesig" deviceset="OSHW" device=""/>
-<part name="D2" library="escorna_ELIB" deviceset="DIODE_SCHOTTKY-DIODE" device="SMA" value="SS34"/>
-<part name="D2.1" library="adafruit" deviceset="SCHOTTKY-DIODE" device="DO35-7"/>
+<part name="D2.1" library="escorna_ELIB" deviceset="DIODE_SCHOTTKY-DIODE" device="SMA" value="SS34"/>
+<part name="D2" library="adafruit" deviceset="SCHOTTKY-DIODE" device="DO35-7" value="1N5817"/>
 <part name="GND27" library="Echidna_shield_LBR" deviceset="GND" device=""/>
 <part name="C3" library="rcl" deviceset="C-EU" device="C1206" value="22uF"/>
 <part name="GND28" library="Echidna_shield_LBR" deviceset="GND" device=""/>
@@ -30756,8 +30756,8 @@ o Step up/cargador</text>
 <instance part="GND16" gate="1" x="213.36" y="88.9"/>
 <instance part="U$19" gate="G$1" x="256.54" y="17.78"/>
 <instance part="F1" gate="G$1" x="120.65" y="23.622" smashed="yes">
-<attribute name="NAME" x="116.84" y="25.019" size="1.778" layer="95"/>
-<attribute name="VALUE" x="116.078" y="33.909" size="1.778" layer="96"/>
+<attribute name="NAME" x="119.126" y="25.019" size="1.778" layer="95"/>
+<attribute name="VALUE" x="116.332" y="20.955" size="1.4224" layer="96"/>
 </instance>
 <instance part="T1" gate="G$1" x="190.5" y="60.96" smashed="yes">
 <attribute name="NAME" x="196.342" y="60.452" size="1.778" layer="95"/>
@@ -30803,35 +30803,44 @@ o Step up/cargador</text>
 <instance part="R9" gate="G$1" x="35.56" y="36.322"/>
 <instance part="R10" gate="G$1" x="35.56" y="26.162"/>
 <instance part="L1" gate="A" x="101.6" y="31.242" smashed="yes">
-<attribute name="NAME" x="96.8756" y="33.3756" size="2.0828" layer="95" rot="SR0"/>
-<attribute name="VALUE" x="98.5266" y="26.8986" size="1.778" layer="96" ratio="6" rot="SR0"/>
+<attribute name="NAME" x="99.9236" y="33.8836" size="2.0828" layer="95" rot="SR0"/>
+<attribute name="VALUE" x="98.5266" y="28.1686" size="1.778" layer="96" ratio="6" rot="SR0"/>
 </instance>
 <instance part="R11" gate="G$1" x="45.72" y="26.162"/>
 <instance part="GND6" gate="1" x="78.74" y="8.382"/>
-<instance part="R12" gate="G$1" x="66.04" y="18.542" rot="R90"/>
+<instance part="R12" gate="G$1" x="66.04" y="18.542" smashed="yes" rot="R90">
+<attribute name="NAME" x="69.8754" y="8.89" size="1.778" layer="95" rot="R90"/>
+<attribute name="VALUE" x="69.596" y="16.002" size="1.778" layer="96" rot="R90"/>
+</instance>
 <instance part="GND7" gate="1" x="66.04" y="8.382"/>
-<instance part="D1" gate="G$1" x="91.44" y="33.782" rot="R90"/>
+<instance part="D1" gate="G$1" x="91.44" y="33.782" smashed="yes" rot="R90">
+<attribute name="NAME" x="93.218" y="39.497" size="1.778" layer="95" rot="R180"/>
+<attribute name="VALUE" x="94.996" y="30.353" size="1.778" layer="96" rot="R180"/>
+</instance>
 <instance part="C6" gate="G$1" x="93.98" y="16.002" smashed="yes">
-<attribute name="NAME" x="95.504" y="16.383" size="1.778" layer="95"/>
+<attribute name="NAME" x="92.837" y="9.144" size="1.778" layer="95" rot="R90"/>
 <attribute name="VALUE" x="92.837" y="16.764" size="1.778" layer="96" rot="R90"/>
 </instance>
 <instance part="C7" gate="G$1" x="101.6" y="16.002" smashed="yes">
-<attribute name="NAME" x="103.124" y="16.383" size="1.778" layer="95"/>
+<attribute name="NAME" x="100.457" y="9.144" size="1.778" layer="95" rot="R90"/>
 <attribute name="VALUE" x="100.457" y="16.764" size="1.778" layer="96" rot="R90"/>
 </instance>
 <instance part="C8" gate="G$1" x="109.22" y="16.002" smashed="yes">
-<attribute name="NAME" x="110.744" y="16.383" size="1.778" layer="95"/>
+<attribute name="NAME" x="108.077" y="9.144" size="1.778" layer="95" rot="R90"/>
 <attribute name="VALUE" x="108.077" y="16.764" size="1.778" layer="96" rot="R90"/>
 </instance>
 <instance part="GND8" gate="1" x="93.98" y="8.382"/>
 <instance part="GND18" gate="1" x="101.6" y="8.382"/>
 <instance part="GND19" gate="1" x="109.22" y="8.382"/>
 <instance part="GND22" gate="1" x="115.57" y="8.636"/>
-<instance part="C9" gate="G$1" x="134.62" y="16.002"/>
+<instance part="C9" gate="G$1" x="134.62" y="16.002" smashed="yes">
+<attribute name="NAME" x="138.557" y="9.144" size="1.778" layer="95" rot="R90"/>
+<attribute name="VALUE" x="138.557" y="16.764" size="1.778" layer="96" rot="R90"/>
+</instance>
 <instance part="GND23" gate="1" x="134.62" y="8.382"/>
 <instance part="C11" gate="G$1" x="40.64" y="21.082" smashed="yes">
-<attribute name="NAME" x="35.56" y="21.717" size="1.778" layer="95"/>
-<attribute name="VALUE" x="33.782" y="16.129" size="1.778" layer="96"/>
+<attribute name="NAME" x="39.497" y="13.462" size="1.778" layer="95" rot="R90"/>
+<attribute name="VALUE" x="43.307" y="13.208" size="1.778" layer="96" rot="R90"/>
 </instance>
 <instance part="GND25" gate="1" x="40.64" y="8.382"/>
 <instance part="LED2" gate="G$1" x="55.88" y="28.702" rot="R90"/>
@@ -30847,7 +30856,7 @@ o Step up/cargador</text>
 <attribute name="NAME" x="116.078" y="10.033" size="1.778" layer="95"/>
 </instance>
 <instance part="SJ1" gate="1" x="111.76" y="31.242" smashed="yes" rot="R90">
-<attribute name="NAME" x="115.316" y="28.956" size="1.778" layer="95" rot="R90"/>
+<attribute name="NAME" x="115.316" y="31.496" size="1.778" layer="95" rot="R90"/>
 <attribute name="VALUE" x="115.57" y="28.702" size="1.778" layer="96" rot="R90"/>
 </instance>
 <instance part="R3.1" gate="G$1" x="182.88" y="53.34"/>
@@ -30872,7 +30881,7 @@ o Step up/cargador</text>
 <attribute name="VALUE" x="25.654" y="10.668" size="1.778" layer="96" rot="MR0"/>
 </instance>
 <instance part="F1.1" gate="G$1" x="121.158" y="26.67" smashed="yes">
-<attribute name="NAME" x="119.126" y="30.48" size="1.778" layer="95"/>
+<attribute name="NAME" x="119.126" y="30.988" size="1.778" layer="95"/>
 </instance>
 <instance part="NP1" gate="G$1" x="108.458" y="86.36" smashed="yes">
 <attribute name="NAME" x="98.298" y="83.82" size="1.778" layer="95" rot="R90"/>
@@ -30897,15 +30906,18 @@ o Step up/cargador</text>
 </instance>
 <instance part="GND26" gate="1" x="246.38" y="40.64"/>
 <instance part="U$7" gate="G$1" x="255.524" y="28.448"/>
-<instance part="D2" gate="G$1" x="115.57" y="18.034" smashed="yes" rot="R90">
+<instance part="D2.1" gate="G$1" x="115.57" y="18.034" smashed="yes" rot="R90">
 <attribute name="NAME" x="119.253" y="15.24" size="1.778" layer="95" rot="R90"/>
 <attribute name="VALUE" x="120.777" y="20.066" size="1.778" layer="96" rot="R270"/>
 </instance>
-<instance part="D2.1" gate="G$1" x="127" y="17.78" rot="R90"/>
+<instance part="D2" gate="G$1" x="127" y="17.78" smashed="yes" rot="R90">
+<attribute name="NAME" x="126.111" y="12.7" size="1.778" layer="95" rot="R90"/>
+<attribute name="VALUE" x="130.937" y="12.446" size="1.778" layer="96" rot="R90"/>
+</instance>
 <instance part="GND27" gate="1" x="127" y="8.636"/>
 <instance part="C3" gate="G$1" x="144.78" y="16.002" smashed="yes">
-<attribute name="NAME" x="146.304" y="16.383" size="1.778" layer="95"/>
-<attribute name="VALUE" x="143.637" y="16.764" size="1.778" layer="96" rot="R90"/>
+<attribute name="NAME" x="148.717" y="9.144" size="1.778" layer="95" rot="R90"/>
+<attribute name="VALUE" x="148.717" y="19.304" size="1.778" layer="96" rot="R90"/>
 </instance>
 <instance part="GND28" gate="1" x="144.78" y="8.382"/>
 <instance part="U$8" gate="G$1" x="256.54" y="17.78"/>
@@ -31101,7 +31113,7 @@ o Step up/cargador</text>
 <pinref part="GND22" gate="1" pin="GND"/>
 <wire x1="115.57" y1="13.716" x2="115.57" y2="11.176" width="0.1524" layer="91"/>
 <pinref part="X1" gate="-2" pin="KL"/>
-<pinref part="D2" gate="G$1" pin="A"/>
+<pinref part="D2.1" gate="G$1" pin="A"/>
 <wire x1="115.57" y1="15.494" x2="115.57" y2="13.716" width="0.1524" layer="91"/>
 <junction x="115.57" y="13.716"/>
 </segment>
@@ -31148,7 +31160,7 @@ o Step up/cargador</text>
 <pinref part="GND26" gate="1" pin="GND"/>
 </segment>
 <segment>
-<pinref part="D2.1" gate="G$1" pin="A"/>
+<pinref part="D2" gate="G$1" pin="A"/>
 <pinref part="GND27" gate="1" pin="GND"/>
 <wire x1="127" y1="15.24" x2="127" y2="11.176" width="0.1524" layer="91"/>
 </segment>
@@ -31725,9 +31737,9 @@ o Step up/cargador</text>
 <junction x="115.57" y="23.622"/>
 <pinref part="F1.1" gate="G$1" pin="1"/>
 <wire x1="116.078" y1="29.21" x2="115.57" y2="29.21" width="0.1524" layer="91"/>
-<pinref part="D2" gate="G$1" pin="C"/>
-<wire x1="115.57" y1="20.574" x2="115.57" y2="23.622" width="0.1524" layer="91"/>
 <pinref part="D2.1" gate="G$1" pin="C"/>
+<wire x1="115.57" y1="20.574" x2="115.57" y2="23.622" width="0.1524" layer="91"/>
+<pinref part="D2" gate="G$1" pin="C"/>
 <wire x1="127" y1="20.32" x2="127" y2="20.574" width="0.1524" layer="91"/>
 <wire x1="127" y1="20.574" x2="115.57" y2="20.574" width="0.1524" layer="91"/>
 <junction x="115.57" y="20.574"/>
@@ -31743,7 +31755,6 @@ o Step up/cargador</text>
 </segment>
 <segment>
 <wire x1="27.94" y1="31.242" x2="30.48" y2="31.242" width="0.1524" layer="91"/>
-<label x="29.972" y="33.274" size="1.778" layer="95" rot="R90"/>
 <pinref part="J2" gate="G$1" pin="VBUS"/>
 </segment>
 </net>
@@ -31823,11 +31834,6 @@ o Step up/cargador</text>
 <pinref part="R12" gate="G$1" pin="2"/>
 </segment>
 </net>
-<net name="RESET" class="0">
-<segment>
-<label x="35.56" y="10.922" size="1.778" layer="95"/>
-</segment>
-</net>
 <net name="VCH" class="0">
 <segment>
 <pinref part="R10" gate="G$1" pin="2"/>
@@ -31840,7 +31846,6 @@ o Step up/cargador</text>
 <wire x1="66.04" y1="36.322" x2="40.64" y2="36.322" width="0.1524" layer="91"/>
 <wire x1="40.64" y1="26.162" x2="40.64" y2="36.322" width="0.1524" layer="91"/>
 <junction x="40.64" y="36.322"/>
-<label x="53.34" y="38.1" size="1.778" layer="95" rot="R180"/>
 </segment>
 </net>
 <net name="N$5" class="0">
