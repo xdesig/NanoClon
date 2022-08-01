@@ -1,6 +1,6 @@
 # NanoClon V 0.001   <img src="https://github.com/xdesig/NanoClon/blob/main/img/ES000027.svg" width="150" align="right">
 
-<img src="https://github.com/xdesig/NanoClon/blob/main/img/mClonNano_3DimgTopNanoBri.png" width="300" align="right">
+<img src="https://github.com/xdesig/NanoClon/blob/main/img/NanoClon000.png" width="300" align="right">
 
 ## initial version.
 Circuit that has everything you need to assemble your mClon-style robot, 
@@ -13,7 +13,7 @@ larger than the usual 0603 and 0402).
 You can an option not solder the smd components of the step-up,
 and use a power bank by simply soldering the Bat-Vcc selector on the underside.
 
-#### Deseñado en Estrimia con agarimo
+#### Deseñado en Estrimia con agarimo.
 
 ## Author and license
 * Author: [XDeSIG][TWI01]
