@@ -1,4 +1,4 @@
-# NanoClon V 0.001   <img src="https://github.com/xdesig/NanoClon/blob/main/img/ES000027.svg" width="150" align="right">
+# NanoClon V 0.01   <img src="https://github.com/xdesig/NanoClon/blob/main/img/ES000027.svg" width="150" align="right">
 
 <img src="https://github.com/xdesig/NanoClon/blob/main/img/NanoClon000.png" width="300" align="right">
 
