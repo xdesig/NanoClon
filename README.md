@@ -1,6 +1,6 @@
 # NanoClon V 0.01   <img src="https://github.com/xdesig/NanoClon/blob/main/img/ES000027.svg" width="150" align="right">
 
-<img src="https://github.com/xdesig/NanoClon/blob/main/img/nClon_001_001.png" width="300" align="right">
+<img src="https://github.com/xdesig/NanoClon/blob/main/img/nClon_001.png" width="300" align="right">
 
 ## initial version.
 Circuit that has everything you need to assemble your mClon-style robot, 
